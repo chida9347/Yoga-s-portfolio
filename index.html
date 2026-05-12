@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of N YOGANANDA, B.Pharmacy student aspiring to become a Pharmacist and Clinical Research Professional."
+    />
+    <title>N YOGANANDA | B.Pharmacy Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar container" aria-label="Primary">
+        <a href="#home" class="logo">N YOGANANDA</a>
+        <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#certification" class="nav-link">Certification</a></li>
+          <li><a href="#project" class="nav-link">Project</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">🌙</button>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero section">
+        <div class="container hero-content reveal">
+          <p class="eyebrow">Portfolio</p>
+          <h1>N YOGANANDA</h1>
+          <p class="subtitle">
+            B.Pharmacy Student | Aspiring Pharmacist | Clinical Research Enthusiast
+          </p>
+          <div class="hero-actions">
+            <a href="#skills" class="btn btn-primary">View Skills</a>
+            <a href="#contact" class="btn btn-secondary">Contact</a>
+            <a href="resume.png" class="btn btn-outline" download>Download Resume</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container reveal">
+          <h2>About</h2>
+          <p>
+            I am currently pursuing B.Pharmacy at Balaji College of Pharmacy and building a focused foundation in pharmaceutical analysis and clinical research workflows. My academic training emphasizes UV-based analytical techniques, method development, and laboratory documentation that supports reliable, reproducible results in regulated environments.
+          </p>
+          <p>
+            I am particularly interested in translating analytical data into practical quality decisions in drug development and routine quality control settings. I aim to grow as a pharmacist with strong clinical research capabilities and disciplined laboratory execution.
+          </p>
+        </div>
+      </section>
+
+      <section id="skills" class="section section-alt">
+        <div class="container">
+          <h2 class="reveal">Skills</h2>
+          <div class="skills-grid">
+            <article class="skill-card reveal">
+              <h3>UV Handling</h3>
+              <p>Operational understanding of UV-Visible spectrophotometric analysis workflows.</p>
+            </article>
+            <article class="skill-card reveal">
+              <h3>Analytical Method Development</h3>
+              <p>Foundational experience in developing analytical procedures for pharmaceutical compounds.</p>
+            </article>
+            <article class="skill-card reveal">
+              <h3>Microsoft Excel</h3>
+              <p>Confident with tabulation, calculation, and presentation of laboratory and validation data.</p>
+            </article>
+            <article class="skill-card reveal">
+              <h3>Basic Method Validation</h3>
+              <p>Familiar with core validation parameters and documentation practices.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="certification" class="section">
+        <div class="container reveal">
+          <h2>Certification</h2>
+          <article class="cert-card">
+            <h3>Industrial Training</h3>
+            <p class="cert-org">Hetero Labs Limited, Hyderabad, India</p>
+            <p>
+              Completed industrial training with exposure to pharmaceutical manufacturing and analytical quality workflows in a professional laboratory environment.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="project" class="section section-alt">
+        <div class="container reveal">
+          <h2>Project</h2>
+          <article class="project-card">
+            <h3>
+              GREEN UV-VISIBLE SPECTROPHOTOMETRIC METHOD DEVELOPMENT AND VALIDATION FOR ESTIMATION OF EXEMESTANE BY USING DNPH CHROMOGENIC REAGENT
+            </h3>
+            <p class="project-summary">
+              Developed a greener UV-Visible spectrophotometric approach for estimating Exemestane using DNPH chromogenic reagent, with emphasis on practical validation and analytical reliability for pharmaceutical applications.
+            </p>
+            <div class="project-grid">
+              <div>
+                <h4>Problem Statement</h4>
+                <p>
+                  Existing estimation approaches can be resource-intensive; a simpler and environmentally considerate UV-based method was needed for Exemestane analysis.
+                </p>
+              </div>
+              <div>
+                <h4>Objective</h4>
+                <p>
+                  To develop and validate a green, reproducible spectrophotometric method suitable for routine pharmaceutical estimation of Exemestane.
+                </p>
+              </div>
+              <div>
+                <h4>Tools / Techniques Used</h4>
+                <p>
+                  UV-Visible spectrophotometry, DNPH chromogenic reagent chemistry, calibration workflow, and basic validation parameters.
+                </p>
+              </div>
+              <div>
+                <h4>Outcome</h4>
+                <p>
+                  Established a workable analytical protocol with consistent response characteristics and a practical validation profile for student-level research and lab use.
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container reveal">
+          <h2>Contact</h2>
+          <div class="contact-grid">
+            <form class="contact-form" action="https://formspree.io/f/your-form-id" method="post">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required />
+
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+              <input type="hidden" name="_subject" value="New portfolio message from N Yogananda website" />
+
+              <button type="submit" class="btn btn-primary">Send Message</button>
+              <p class="form-note">After setup, messages will be delivered to your email inbox.</p>
+            </form>
+            <div class="contact-links">
+              <p>LinkedIn: <a href="https://www.linkedin.com/in/yoga-nanda-003b9a403?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener">yoga-nanda-003b9a403</a></p>
+              <p>GitHub: <a href="#" aria-label="GitHub profile placeholder">Add profile link</a></p>
+              <p>Email: <a href="mailto:yoga888333@gmail.com">yoga888333@gmail.com</a></p>
+              <p>Mobile: <a href="tel:+919398968601">+91 93989 68601</a></p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> N YOGANANDA. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
